@@ -1,0 +1,114 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Login">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical"
+        >
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#46AAAAAA"
+            app:shapeAppearance="@style/border">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Name"
+                android:textSize="15sp"
+                android:textColor="@android:color/black"
+                android:background="@null"
+                android:layout_marginStart="2dp"
+                android:backgroundTint="@color/colorPrimary"
+                android:id="@+id/nameEt"
+                ></com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#46AAAAAA"
+            android:layout_marginTop="20dp"
+            app:shapeAppearance="@style/border">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Phone Number"
+                android:textSize="15sp"
+                android:textColor="@android:color/black"
+                android:background="@null"
+                android:layout_marginStart="2dp"
+                android:backgroundTint="@color/colorPrimary"
+                android:id="@+id/phnoEt"
+                ></com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#46AAAAAA"
+            app:shapeAppearance="@style/border">
+
+            <com.google.android.material.textfield.TextInputEditText
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:textColor="@android:color/black"
+                android:hint="Enter Email"
+                android:layout_marginStart="2dp"
+                android:padding="10dp"
+                android:id="@+id/emailEt"
+                android:textSize="15sp"
+                ></com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.card.MaterialCardView>
+
+
+
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#46AAAAAA"
+            android:layout_marginTop="20dp"
+            app:shapeAppearance="@style/border">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Set Password"
+                android:textSize="15sp"
+
+                android:textColor="@android:color/black"
+                android:background="@null"
+                android:layout_marginStart="2dp"
+                android:backgroundTint="@color/colorPrimary"
+                android:id="@+id/passwordEt"
+                ></com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_marginTop="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\t\t\t\t\tSign Up\t\t\t\t\t"
+            android:id="@+id/SignUpButton"
+            android:layout_gravity="center"></com.google.android.material.button.MaterialButton>
+
+
+    </LinearLayout>
+
+</FrameLayout>
